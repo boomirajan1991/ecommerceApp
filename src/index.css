@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;500&display=swap');
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Noto Sans', sans-serif !important;
+
+}
+
+.form-control, .btn, .card{
+  border-radius: 3px !important;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #43b425 !important;
+  border-color: #43b425 !important;
+}
+
+.btn-outline-success {
+  color: #43b425 !important;
+  border-color: #43b425 !important;
+}
+
+.btn-outline-success:active {
+  color: #fff;
+  background-color: #43b425 !important;
+  border-color: #43b425 !important;
+}
+
+.btn-outline-success:hover {
+  color: #fff !important;
+  background-color: #43b425 !important;
+  border-color: #43b425 !important;
+}

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;500&display=swap');
+body {
+  background-color: #343a40 !important;
+  font-size: small !important;
+  font-family: 'Noto Sans', sans-serif !important;
+}
+.Homecomponent {
+  background-image: url(./shot.gif);
+  background-size: cover;
+  background-position: top;
+  min-height: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-danger {
+  color: #ff0000 !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+.small_button {
+  font-size: small !important;
+}
+
+.header-nav-link {
+  display: block !important;
+  padding: 0.5rem 1rem !important;
+  color: #0d6efd !important;
+  text-decoration: none !important;
+  color: #000 ! important;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out !important;
+}
+
+.dropdown-menu {
+  border-radius: 0px !important;
+}
+
+.nav-font-size,
+.form-control,
+.form-select {
+  font-size: small !important;
+}
+
+.common-font-size {
+  font-size: 1rem !important;
+}
+
+.brandImage:hover,
+.zoomImage:hover {
+  transform: scale(3.5);
+  border-radius: 1px !important;
+}
+
+.zoomImageIcon:hover {
+  transform: scale(2);
+  border-radius: 1px !important;
+  z-index: 10;
+  object-fit: contain !important;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.accordion-button {
+  padding: 0.5rem 1rem !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+.accordion-item:first-of-type {
+  border-radius: 0px !important;
+}
+
+svg.font-size-bold {
+  font-size: 20px;
+}
+
+.modal-content {
+  border-radius: 0px !important;
+}
+
+.tableSwitchbutton {
+  width: 100% !important;
+}
+
+.uploadImageCol {
+  height: 200px !important;
+  object-fit: cover !important;
+}
+
+.viewImageCol {
+  height: 100px !important;
+  object-fit: cover !important;
+}
+
+.uploadCardView {
+  padding: 1px !important;
+}
+
+.card-img,
+.card-img-top {
+  border-radius: 0% !important;
+}
+
+.cardPositionList {
+  position: absolute !important;
+  padding: 0px !important;
+}
+
+.cardPosition {
+  position: relative !important;
+  padding: 0px !important;
+}
+
+.buttonEdit {
+  position: absolute ! important;
+  bottom: 0px;
+  right: 0px;
+}
+
+.buttonDelete {
+  position: absolute ! important;
+  bottom: 0px;
+}
+
+.buttonDanger {
+  border-radius: 0px 0px 10px ! important;
+  padding: 0px 4px 4px 4px ! important;
+}
+
+.btnEdit {
+  border-radius: 10px 0px 0px 0px ! important;
+  padding: 4px ! important;
+}
+
+.btnDelete {
+  border-radius: 0px 10px 0px 0px ! important;
+  padding: 4px ! important;
+}
