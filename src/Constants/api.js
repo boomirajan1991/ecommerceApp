@@ -1,1 +1,1 @@
-export const ApiUrl = 'http://localhost:3012/';
+export const ApiUrl = 'https://kjboomi-server.herokuapp.com/';
