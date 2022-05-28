@@ -7,7 +7,7 @@ const Home = () => {
     <div className='Homecomponent'>
       <Col sm={12} className="text-center">
         <Button variant="success" size="sm" className="mt-5">
-          <Link to="login">Go To Login </Link>
+          <Link to="login">CLICK HERE TO GO LOGIN PAGE</Link>
         </Button>
       </Col>
     </div>
